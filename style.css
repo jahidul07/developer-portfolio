@@ -69,7 +69,7 @@ main{
   text-align: center;
 }
 .section-tittle{
- /* text-align: center; */
+ text-align: center;
  padding-bottom: 20px;
  font-size: 3rem;
  font-family: 'Satisfy', cursive;;
@@ -91,6 +91,41 @@ padding-bottom: 100px;
 	font-weight: bold;
 	font-size: 20px;
 	color: green;
+}
+/* what i do start */
+.what-i-do{
+	margin-top: 130px;
+	margin-bottom: 20px;
+	gap: 24px;
+}
+.skill{
+	background-color: cyan;
+	border-radius: 10px;
+	box-shadow: 0px 6px 50px black(0, 0, 0, 0.06);
+	padding: 30px;
+	margin-left: 10px;
+	transition: transform 2s;
+}
+.skill:hover{
+	transform: scale(1.2);
+}
+.skill-container{
+	display: flex;
+}
+.skill-title{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.skill-desc{
+	color: green;
+	text-align: center;
+}
+/* resume start */
+.resume{
+	margin-top: 130px;
 }
 
 
